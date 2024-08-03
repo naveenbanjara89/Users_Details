@@ -27,7 +27,7 @@
       $(document).ready(function () {
         $.ajax({
           type: "GET",
-          url: "https://user-registration89.netlify.app/api/users",
+          url: "https://users-details-backend.onrender.com/api/users",
           success: function (response) {
             const usersTableBody = $("#usersTableBody");
             response.forEach((user) => {
