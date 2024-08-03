@@ -20,7 +20,7 @@ html {
 /*   overflow: hidden; */
   padding: 20px 0;
 }
-::webkit-scrollbar {
+::-webkit-scrollbar {
   display:none
 }
 
