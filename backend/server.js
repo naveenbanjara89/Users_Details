@@ -12,7 +12,7 @@ const app = express();
 connectDB();
 app.use(
   cors({
-    origin: "https://user-registration89.netlify.app/api/users",
+    origin: "https://users-registration89.onrender.com/api/users",
   })
 );
 app.use(bodyParser.json());
