@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+// gffdhgfh
 const isAlphaWithSpaces = (value) => /^[a-zA-Z\s]+$/.test(value);
 const isValidStreet = (value) =>
   /^[a-zA-Z0-9\s.,-]+$/.test(value) && /[a-zA-Z]/.test(value);
